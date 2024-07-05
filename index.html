@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>GIS Project - Group 17</title>
+    <meta charset="utf-8" />
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/extra.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+
+
+
+
+
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>North-Sondrio GIS Project</h1>
+                    <p>Analysis of the north region of Sondrio through Landslide Susceptibility Mapping</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro" onclick="loadContent('intro.html', 'intro')">Intro</a></li>
+
+                    <li><a href="#work" onclick="loadContent('work.html', 'work')">Project</a></li>
+                    <li><a href="#results" onclick="loadContent('results.html', 'results')">Results</a></li>
+                    <li><a href="#webgis" onclick="loadContent('webgis.html', 'webgis')">WebGIS</a></li>
+
+                    <li><a href="#about" onclick="loadContent('about.html', 'about')">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+            <article id="intro">
+                <h2 class="major">Introduction</h2>
+                <div id="intro-content">
+                    <!--Introduction content will be loaded here -->
+                </div>
+            </article>
+
+            <article id="work">
+                <h2 class="major">Our Project</h2>
+                <div id="work-content">
+                    <!-- Our Project content will be loaded here -->
+                </div>
+            </article>
+
+            <article id="results">
+                <h2 class="major">Results</h2>
+                <div id="results-content">
+                    <!-- Results content will be loaded here -->
+                </div>
+            </article>
+
+            <article id="about">
+                <h2 class="major">About Us</h2>
+                <div id="about-content">
+                    <!-- About Us content will be loaded here -->
+                </div>
+            </article>
+            <article id="webgis">
+                <h2 class="major">WebGIS</h2>
+                <p>The interactive WebGIS application is a powerful tool designed to help users explore and understand landslide risks. It allows users to interact with various data layers, switch between different views, and gain insights into how landslide risks and population exposure are distributed across a region. This tool is invaluable for stakeholders, researchers, and policymakers working in disaster risk management and urban planning. By providing a detailed and accessible way to visualize and analyze landslide data, it supports informed decision-making and helps protect communities from potential hazards.</p>
+                <ul class="actions" style="text-align: center;">
+                    
+                    <li><a href="webgis.html" class="button">See Web map</a></li>
+                </ul>
+                <div id="webgis-content">
+                    
+                    <!-- WebGIS content will be loaded here -->
+
+                </div>
+            </article>
+
+            						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="footer-title">Check out our repository</p>
+            <ul class="icons">
+                <li><a href="https://github.com/moeinp70/GIS_Landslide" class="icon brands fa-github"></a></li>
+            </ul>
+            <p>Geographic Information Systems - 2023-2024 <br> Lab Project - Group 17 <br> Politecnico di Milano</p>
+        </footer>
+
+    </div>
+
+    		<!-- BG -->
+			<div id="bg"></div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function loadContent(page, section) {
+            $("#" + section + "-content").load(page + " .inner");
+        }
+    </script>
+
+
+
+</body>
+</html>

@@ -1,1 +1,1 @@
-# polimi-gis
+# GIS_Landslide
