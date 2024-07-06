@@ -39,30 +39,30 @@
 
 .pink{
     background-color: rgb(255, 148, 148);
-    height:50%;
-    width: 50%;
+    height:30%;
+    width: 30%;
     display: block;
   }
-  .red{
+.red{
     background-color: rgb(255, 0, 0);
-    height:50%;
-    width: 50%;
+    height:35%;
+    width: 35%;
   }
-  .blue{
+.blue{
     background-color: rgb(38, 0, 255);
-    height:50%;
+    height:25%;
     position: absolute;
     top: 0px;
     right: 0;
-    width: 50%;
+    width: 25%;
     clip-path: polygon(0 0, 100% 0%, 0% 100%);
   }
-  .green{
+.green{
     background-color: limegreen;
-    height:50%;
-    width: 50%;
+    height:10%;
+    width: 10%;
     right: 0;
-    top: 50%;
+    top: 10%;
     position: absolute;
     clip-path:polygon(0% 0%, 100% 0%, 100% 100%);
   }
