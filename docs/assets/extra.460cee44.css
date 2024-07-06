@@ -37,18 +37,18 @@
   align-items: center;
 }
 
-.sky-blue{
+.pink{
     background-color: rgb(255, 148, 148);
     height:50%;
     width: 50%;
     display: block;
   }
-  .light-yellow{
+  .red{
     background-color: rgb(255, 0, 0);
     height:50%;
     width: 50%;
   }
-  .pink{
+  .blue{
     background-color: rgb(38, 0, 255);
     height:50%;
     position: absolute;
@@ -56,15 +56,6 @@
     right: 0;
     width: 50%;
     clip-path: polygon(0 0, 100% 0%, 0% 100%);
-  }
-  .purple{
-    background-color: rgb(0, 255, 68);
-    height:50%;
-    width: 50%;
-    right: 0;
-    top: 0;
-    position: absolute;
-    clip-path:polygon(0% 100%, 100% 0%, 100% 100%);
   }
   .green{
     background-color: limegreen;
