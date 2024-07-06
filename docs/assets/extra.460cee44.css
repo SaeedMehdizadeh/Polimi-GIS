@@ -145,31 +145,24 @@
   
   /* background colors for the entry keys */
   .rice-label{
-    background-color: lightyellow;
+    background-color: rgb(255, 0, 0);
     visibility: hidden;
     animation: display-key 500ms 1s  ease forwards;
   }
   .beans-label{
-    background-color: pink;
+    background-color: rgb(254, 156, 143);
     animation: display-key 500ms 1.5s  ease forwards;
   }
   .plantain-label{
-    background-color: purple;
+    background-color: rgb(25, 0, 255);
     color: white;
     animation: display-key 500ms 2s  ease forwards;
   }
   .potato-label{
-    background-color: limegreen;
+    background-color: rgb(0, 255, 0);
     animation: display-key 500ms 2.5s  ease forwards;
   }
-  .yam-label{
-    background-color: wheat;
-    animation: display-key 500ms 3s  ease forwards;
-  }
-  .pasta-label{
-    background-color: skyblue;
-    animation: display-key 500ms 3.5s  ease forwards;
-  }
+
   
   /* the texts displayed below */
   .text{
