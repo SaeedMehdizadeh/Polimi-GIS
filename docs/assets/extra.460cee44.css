@@ -16,6 +16,7 @@
 
 
 
+/* the individual entries */
 
 
  .pie-wrap{
@@ -36,7 +37,6 @@
   align-items: center;
 }
 
-/* the individual entries */
 .sky-blue{
     background-color: lightskyblue;
     height:50%;
