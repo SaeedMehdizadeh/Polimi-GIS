@@ -179,7 +179,7 @@
   .key-wrap label:active{
     opacity: .5;
   }
-  .rice-key:checked ~ .rice-text, .beans-key:checked ~ .beans-text, .plantain-key:checked ~ .plantain-text,  .potato-key:checked ~ .potato-text, .yam-key:checked ~ .yam-text, .pasta-key:checked ~ .pasta-text{
+  .rice-key:checked ~ .rice-text, .beans-key:checked ~ .beans-text, .plantain-key:checked ~ .plantain-text,  .potato-key:checked ~ .potato-text{
    display: block;
   }
   
@@ -195,13 +195,7 @@
   .potato-text{
     border-color:  limegreen;
   }
-  .yam-text{
-    border-color:  wheat;
-  }
-  .pasta-text{
-    border-color:  skyblue;
-  }
-  
+
   
   /* animation styles */
   @keyframes pie-size {
