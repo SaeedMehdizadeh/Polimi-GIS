@@ -1,30 +1,31 @@
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per Day'],
+      ['Work',     11],
+      ['Eat',      2],
+      ['Commute',  2],
+      ['Watch TV', 2],
+      ['Sleep',    7]
+    ]);
+
+    var options = {
+      title: 'My Daily Activities'
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+    chart.draw(data, options);
+  }
+</script>
+
 <div class="inner">
 
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script type="text/javascript">
-    google.charts.load('current', {'packages':['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-
-      var data = google.visualization.arrayToDataTable([
-        ['Task', 'Hours per Day'],
-        ['Work',     11],
-        ['Eat',      2],
-        ['Commute',  2],
-        ['Watch TV', 2],
-        ['Sleep',    7]
-      ]);
-
-      var options = {
-        title: 'My Daily Activities'
-      };
-
-      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-      chart.draw(data, options);
-    }
-  </script>
 
 
         <h2><b>Our Results</b></h2>
@@ -51,28 +52,15 @@
       <p><b>User’s accuracy (UA)</b> of a class shows how often a user of classified map can expect to find the class on the ground. The model has a slightly lower accuracy (0.85) in predicting Class 2 instances compared to Class 1 (0.86). It implies that when the model predicts an instance as Class 1, it is more likely to be correct (86% of the time), while the accuracy is relatively lower (85%) when the model predicts an instance as Class 2.</p>
 
 
-      <div id="piechart" style="width: 900px; height: 500px;"></div>
 
 
     <p><h3>Conclusions</h3></p>
 
       <p>The pie chart shows that most people (62.6%) live in areas with low landslide risk. Only a small percentage of people (15.7%) live in areas with a very high landslide risk. This means that most people are relatively safe from landslides. However, it is important to note that even areas with low landslide risk can be affected by landslides if extreme weather conditions occur.</p>
 
+      <div id="piechart" style="width: 900px; height: 500px;"></div>
 
-<article>
-    <p><h3>Issues</h3></p>
 
-      <p>In the process of working on our project we encountered some problems that slowed down our workflow.</p>
-
-      <ul>
-        <li>We faced difficulties in generating the susceptibility map. We had to ensure that all the required layers had the same extent and pixel dimensions. In order to do that we had to use the tool r.resamp.</li>
-        <li>The susceptibility map is missing a small portion. We tried generating it several times and also using different sets of training points from different PCs, but the problem remained unresolved.</li>
-        <li>Some team members were unable to continue the process of generating the error matrix on their PCs because they lacked the "Accuracy Assessment and Sampling" tool, that we were not able in any way to install.</li>
-        <li>We had to find an alternative approach (Flourish) to plot the pie chart showing the percentage of the population residing in the four different risk classes. The only team member who had access to the "Accuracy Assessment and Sampling" functionality and successfully completed the QGIS requirements encountered problems with the DataPlotly plugin. Despite selecting "pie chart" from the menu, only a solid-colored line was plotted.</li>
-        <li>It was impossible for us to set up bing basemaps in our webgis map, as with three different computers and three different accounts we were unable to get a bing key. The dedicaded website did not allow us to fill out the form to get the key, returning only the wording "Failed to get keys".</li>
-        <li>We had some difficulties in setting checkboxes in our webgis map. Such tools, in fact, conflicted with the CSS of the initial template.</li>
-    </ul>
-</article>
 
 <ul class="actions" style="text-align: center;">
     <li><a href="webgis.html" target="_blank" class="button">See Web map</a></li>
