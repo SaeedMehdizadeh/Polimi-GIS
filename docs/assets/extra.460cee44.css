@@ -184,16 +184,16 @@
   }
   
   .rice-text{
-    border-color: black;
+    border-color: rgb(255, 0, 0);
   }
   .beans-text{
-    border-color:  pink;
+    border-color:  rgb(255, 172, 186);
   }
   .plantain-text{
-    border-color:  purple;
+    border-color:  rgb(0, 15, 128);
   }
   .potato-text{
-    border-color:  limegreen;
+    border-color:  rgb(0, 255, 0);
   }
 
   
