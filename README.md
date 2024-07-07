@@ -4,13 +4,12 @@ ANALYSIS OF THE NORTH REGION OF SONDRIO THROUGH LANDSLIDE SUSCEPTIBILITY MAPPING
 ## Overview
 This project is part of a GIS course and demonstrates the creation of a WebGIS application. It includes multiple HTML pages detailing the project's objectives, technologies used, and results achieved. The application displays a web map with various layers, computed error matrices, and population counts.
 
-
 ## About Us
 ### Meet Our Team
 Three Geoinformatics Engineering students at Politecnico di Milano
 
 #### Moein Peyghambar Zadeh
-![Moein](images/moein.jpg)
+<img src="images/moein.jpg" alt="Moein Peyghambar Zadeh" width="200" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
 - Born in Iran, Qom
 - BSc in Computer science
 - AI and Deep Learning enthusiast
@@ -20,7 +19,7 @@ Three Geoinformatics Engineering students at Politecnico di Milano
 - [Linkedin](https://www.linkedin.com/in/moein-peyghambarzadeh/)
 
 #### Saeed Mehdizadeh
-![Saeed](images/saeed.jpg)
+<img src="images/saeed.jpg" alt="Saeed Mehdizadeh" width="200" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
 - Born in Iran, Bijar
 - BSc in Geomatics
 - Remote sensing expert
@@ -30,7 +29,7 @@ Three Geoinformatics Engineering students at Politecnico di Milano
 - [Linkedin](https://www.linkedin.com/in/saeed-mehdizadeh-a7099320b/)
 
 #### Ali Moeinkhah
-![Ali](images/ali.jpg)
+<img src="images/ali.jpg" alt="Ali Moeinkhah" width="200" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
 - Born in Iran, Tehran
 - BSc in Surveying Engineering
 - Earth observation from space avid
