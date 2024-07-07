@@ -4,6 +4,42 @@ ANALYSIS OF THE NORTH REGION OF SONDRIO THROUGH LANDSLIDE SUSCEPTIBILITY MAPPING
 ## Overview
 This project is part of a GIS course and demonstrates the creation of a WebGIS application. It includes multiple HTML pages detailing the project's objectives, technologies used, and results achieved. The application displays a web map with various layers, computed error matrices, and population counts.
 
+
+## About Us
+### Meet Our Team
+Three Geoinformatics Engineering students at Politecnico di Milano
+
+#### Moein Peyghambar Zadeh
+![Moein](images/moein.jpg)
+- Born in Iran, Qom
+- BSc in Computer science
+- AI and Deep Learning enthusiast
+- Gym, Adventure and Gardening.
+- [Mail](mailto:seyed.peyghambar@mail.polimi.it)
+- [Github](https://github.com/moeinp70)
+- [Linkedin](https://www.linkedin.com/in/moein-peyghambarzadeh/)
+
+#### Saeed Mehdizadeh
+![Saeed](images/saeed.jpg)
+- Born in Iran, Bijar
+- BSc in Geomatics
+- Remote sensing expert
+- Main Hobby: Videography.
+- [Mail](mailto:saeed.mehdizadeh@mail.polimi.it)
+- [Github](https://github.com/saeedmehdizadeh)
+- [Linkedin](https://www.linkedin.com/in/saeed-mehdizadeh-a7099320b/)
+
+#### Ali Moeinkhah
+![Ali](images/ali.jpg)
+- Born in Iran, Tehran
+- BSc in Surveying Engineering
+- Earth observation from space avid
+- Reading novel books.
+- [Mail](mailto:ali.moeinkhah@mail.polimi.it)
+- [Github](https://github.com/alimoeinkhah)
+- [Linkedin](https://www.linkedin.com/in/ali-moeinkhah)
+
+
 ## Project Structure
 - **Home Page (`index.html`)**: Introduction to the project.
 - **About Us Page (`about.html`)**: Information about the team and project background.
