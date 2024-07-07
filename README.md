@@ -8,35 +8,51 @@ This project is part of a GIS course and demonstrates the creation of a WebGIS a
 ### Meet Our Team
 Three Geoinformatics Engineering students at Politecnico di Milano
 
-#### Moein Peyghambar Zadeh
+<div style="display: flex; justify-content: space-around; text-align: center;">
+
+<div style="flex: 1;">
 <img src="images/moein.jpg" alt="Moein Peyghambar Zadeh" width="200" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
-- Born in Iran, Qom
-- BSc in Computer science
-- AI and Deep Learning enthusiast
-- Gym, Adventure and Gardening.
-- [Mail](mailto:seyed.peyghambar@mail.polimi.it)
-- [Github](https://github.com/moeinp70)
-- [Linkedin](https://www.linkedin.com/in/moein-peyghambarzadeh/)
+<h4>Moein Peyghambar Zadeh</h4>
+<p>Born in Iran, Qom<br>
+BSc in Computer science<br>
+AI and Deep Learning enthusiast<br>
+Gym, Adventure and Gardening.</p>
+<p>
+<a href="mailto:seyed.peyghambar@mail.polimi.it" class="icon solid fa-envelope">Mail</a> |
+<a href="https://github.com/moeinp70" class="icon brands fa-github">Github</a> |
+<a href="https://www.linkedin.com/in/moein-peyghambarzadeh/" class="icon brands fa-linkedin">Linkedin</a>
+</p>
+</div>
 
-#### Saeed Mehdizadeh
+<div style="flex: 1;">
 <img src="images/saeed.jpg" alt="Saeed Mehdizadeh" width="200" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
-- Born in Iran, Bijar
-- BSc in Geomatics
-- Remote sensing expert
-- Main Hobby: Videography.
-- [Mail](mailto:saeed.mehdizadeh@mail.polimi.it)
-- [Github](https://github.com/saeedmehdizadeh)
-- [Linkedin](https://www.linkedin.com/in/saeed-mehdizadeh-a7099320b/)
+<h4>Saeed Mehdizadeh</h4>
+<p>Born in Iran, Bijar<br>
+BSc in Geomatics<br>
+Remote sensing expert<br>
+Main Hobby: Videography.</p>
+<p>
+<a href="mailto:saeed.mehdizadeh@mail.polimi.it" class="icon solid fa-envelope">Mail</a> |
+<a href="https://github.com/saeedmehdizadeh" class="icon brands fa-github">Github</a> |
+<a href="https://www.linkedin.com/in/saeed-mehdizadeh-a7099320b/" class="icon brands fa-linkedin">Linkedin</a>
+</p>
+</div>
 
-#### Ali Moeinkhah
+<div style="flex: 1;">
 <img src="images/ali.jpg" alt="Ali Moeinkhah" width="200" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
-- Born in Iran, Tehran
-- BSc in Surveying Engineering
-- Earth observation from space avid
-- Reading novel books.
-- [Mail](mailto:ali.moeinkhah@mail.polimi.it)
-- [Github](https://github.com/alimoeinkhah)
-- [Linkedin](https://www.linkedin.com/in/ali-moeinkhah)
+<h4>Ali Moeinkhah</h4>
+<p>Born in Iran, Tehran<br>
+BSc in Surveying Engineering<br>
+Earth observation from space avid<br>
+Reading novel books.</p>
+<p>
+<a href="mailto:ali.moeinkhah@mail.polimi.it" class="icon solid fa-envelope">Mail</a> |
+<a href="https://github.com/alimoeinkhah" class="icon brands fa-github">Github</a> |
+<a href="https://www.linkedin.com/in/ali-moeinkhah" class="icon brands fa-linkedin">Linkedin</a>
+</p>
+</div>
+
+</div>
 
 
 ## Project Structure
